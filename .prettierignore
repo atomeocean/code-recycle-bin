@@ -1,0 +1,12 @@
+# 依赖与构建产物
+node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# 锁文件
+package-lock.json
+
+# 静态资源与 CI 配置
+docs/public/
+.github/
+.husky/
