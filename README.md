@@ -1,6 +1,4 @@
-# Atomeocean 开源仓库
-
-**技术栈：** VitePress (Vue 3) + TypeScript + Node.js 24
+# Atomeocean 用不着的代码
 
 ## 特性
 
@@ -63,13 +61,6 @@ npm run docs:dev   # 启动本地开发服务器
 - 默认语言的路径前缀通过 `config.ts` 的 `rewrites` 去掉（`/xxx` 而非 `/zhHans/xxx`）。
 - 增删语言、修改导航栏与「编辑本页」链接，都在 [`docs/.vitepress/config/i18n.config.ts`](docs/.vitepress/config/i18n.config.ts)。
 
-## 用作模板：初始化新项目
-
-1. 点击 GitHub 的 **Use this template**（或 clone 后重置 git 历史）。
-2. 全局替换 `Atomeocean open source template` 等占位标题、`i18n.config.ts` 中的 `<YOUR_REPO>`、`config.ts` 的社交链接与站点信息。
-3. 删除 `docs/zhHans` 与 `docs/en` 下的示例页（`api-examples.md`、 `markdown-examples.md`），替换成自己的内容。
-4. 更新 `docs/*/contributors.vue` 的贡献者名单。
-5. 如需部署，在 `.github/workflows/deploy.yml` 启用对应流程（当前为占位，默认不做部署——各项目按自身方式接入 GitHub Pages / Cloudflare Pages / 服务器同步）。
 
 ## 格式化
 
