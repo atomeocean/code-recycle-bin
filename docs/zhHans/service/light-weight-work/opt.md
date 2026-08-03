@@ -20,9 +20,7 @@ authors:
   - Mark
   - Xiongchang
 ---
-<script setup>
-import BuyNowButton from '@ao-components/productComponents/BuyNowButton.vue';
-</script>
+
 
 # OPT轻量工作服务
 
@@ -50,11 +48,6 @@ import BuyNowButton from '@ao-components/productComponents/BuyNowButton.vue';
 
 ## 申请
 
-<BuyNowButton
-buttonText="下单Opt轻量工作"
-href="/checkout/opt"
-subtext="使用支付宝付款将加收 4.9% 手续费"
-/>
 
 ## 服务流程
 
