@@ -39,9 +39,15 @@ const vitePressSidebarOptions = supportLocales.map((lang) => ({
   ...(defaultLocale === lang ? {} : { basePath: `/${lang}/` })
 }));
 
+// GitHub Pages 项目页部署在 /<repo>/ 路径下（无自定义域名/CNAME 时需要）
+const base = process.env.GITHUB_REPOSITORY
+  ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/`
+  : '/';
+
 const vitePressConfig: UserConfig = {
   title: 'Atomeocean open source template',
   description: 'atomeocean 开源项目仓库模板',
+  base,
   head: [
     // 示例：Google AdSense（新项目请替换 client id 或删除）
     // ['script', {
