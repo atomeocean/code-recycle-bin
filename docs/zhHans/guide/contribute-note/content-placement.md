@@ -5,6 +5,7 @@ createdDate: 2026-06-13
 lastUpdated: 2026-07-16
 outline: deep
 ---
+
 # 内容放置指南
 
 本指南帮助贡献者决定**一篇新文章应该放进 Logbook 的哪个目录**。
@@ -15,15 +16,14 @@ outline: deep
 2. **再选目录**：确认属于 Logbook 后，用下方的「目录速查表」选择对应目录；遇到拿不准的情况，参考「易混淆场景」。
 3. **最后看写法**：目录确定后，按[VitePress 写作规范](/guide/contribute-note/vitepress-knowledge/index.md)处理 frontmatter、i18n 等细节。
 
-> [!TIP] 命名约定
-> 所有 Markdown 内容目录与文件统一使用 **kebab-case**（如 `work-visas/`、`getting-started.md`）。
+> [!TIP] 命名约定所有 Markdown 内容目录与文件统一使用 **kebab-case**（如 `work-visas/`、`getting-started.md`）。
 
 ## 目录速查表
 
 下表覆盖 `docs/zhHans/` 下全部一级内容目录：
 
 | 目录 | 适合放什么 | 主要子目录 |
-|------|-----------|-----------|
+| --- | --- | --- |
 | `about-us/` | 公司介绍、企业价值观、联系方式、法律资质、办公室信息 | company-profile、contact-us、legal-credentials、office-information |
 | `careers/` | 对外招聘、职位发布 | job-post |
 | `guide/` | 操作指南 / how-to：工单系统、转账方式、服务介绍、轻量工作手册、Staff Page 制作、Obsidian、贡献者经验 | issue-system、transaction、service、light-weight-work、staff-page、obsidian、contribute-note、author-list |
@@ -36,13 +36,12 @@ outline: deep
 | `team-information/` | 团队成员页面 | staff、alumni、light-weight-team-information、team-util |
 | `work-visas/` | 工作签证知识库（流程、规则、参考资料） | cpt、opt、stem-opt、h1b、o1、green-card、international-travel、resource |
 
-> [!WARNING] `_includes/` 不是文章目录
-> `_includes/` 存放被其他页面引用的可复用 Markdown 片段，不要把独立文章放进去。
+> [!WARNING] `_includes/` 不是文章目录 `_includes/` 存放被其他页面引用的可复用 Markdown 片段，不要把独立文章放进去。
 
 ## 易混淆场景
 
 | 内容 | 放这里 | 不要放这里 |
-|------|--------|-----------|
+| --- | --- | --- |
 | 签证知识 / 流程 / 规则 | `work-visas` | ~~`news/immigration`~~ |
 | 时效性的签证 / 移民**动态** | `news/immigration` | ~~`work-visas`~~ |
 | 公司**给员工**发工资 / payroll 机制 / 税务 | `payroll-and-tax` | ~~`guide/transaction`~~ |

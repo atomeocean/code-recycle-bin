@@ -5,6 +5,7 @@ lastUpdated: 2025-08-29
 outline: deep
 createdDate: 2025-06-10
 ---
+
 # 老鼠赛跑
 
 这篇文章可能会过于现实，我先不发小红书，以免传播太广带来麻烦，毕竟现在讲究积极正面，所以先看看公众号里读者的反馈再说。
@@ -55,9 +56,6 @@ Cyan Banister（中文译为“赛恩·巴尼斯特”）是硅谷号称从无�
 为什么呢，因为这个游戏的剧本都写好了的，只是你不相信而已。
 
 <GoogleInArticleAds ad-client="ca-pub-5598390904013681" ad-slot="7373308112"/>
-
-
-
 
 <ReferenceSource
 :sources="[

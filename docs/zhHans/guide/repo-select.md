@@ -5,6 +5,7 @@ createdDate: 2024-11-27
 lastUpdated: 2026-06-13
 outline: deep
 ---
+
 # 根据内容选择仓库
 
 ## 仓库选择示意图
@@ -18,7 +19,7 @@ flowchart TD
     D --> |否| F[是否和找工求职有关]
     F --> |是| G[选择job compass]
     F --> |否| H[选择logbook]
-    
+
     click G href "#job-compass"
     click H href "#logbook"
 ```
@@ -26,10 +27,12 @@ flowchart TD
 ## 网站地址
 
 ### job compass {#job-compass}
+
 - [atomeocean找工求职](http://jobcompass.atomeocean.com/)
 - github地址：[job-compass](https://github.com/atomeocean/job-compass)
 
 ### logbook {#logbook}
+
 - [atomeocean航海日志](http://logbook.atomeocean.com/)
 - github地址：[logbook](https://github.com/atomeocean/logbook)
 

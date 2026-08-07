@@ -61,7 +61,6 @@ npm run docs:dev   # 启动本地开发服务器
 - 默认语言的路径前缀通过 `config.ts` 的 `rewrites` 去掉（`/xxx` 而非 `/zhHans/xxx`）。
 - 增删语言、修改导航栏与「编辑本页」链接，都在 [`docs/.vitepress/config/i18n.config.ts`](docs/.vitepress/config/i18n.config.ts)。
 
-
 ## 格式化
 
 已在 Prettier 中配置好规则，提交前 Husky 会运行 `format:check`。手动格式化：

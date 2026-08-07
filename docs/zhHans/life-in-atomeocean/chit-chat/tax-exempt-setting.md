@@ -4,11 +4,10 @@ outline: deep
 lastUpdated: 2025-10-31
 createdDate: 2024-12-06
 ---
+
 # W4税务豁免设置
 
-::: details 引用来源
-[来源](https://www.uscardforum.com/t/topic/224577)
-:::
+::: details 引用来源 [来源](https://www.uscardforum.com/t/topic/224577) :::
 
 ## 如何做到W2工作不被公司withhold税款
 
@@ -20,20 +19,20 @@ ps: 经过一番研究，完全不 withhold，然后只 1040es，唯一的风险
 
 pps: 奇技淫巧，如果一点风险都不想冒，另外一种骚操作是，如果错过了去年的1040es，又不想多给 irs 交钱，又不想被 irs 抓小辫子，可以一开始把 w4 改成一毛钱不 withhold，每个季度 1040es 交税，再剩今年最后一两个月的时候，把withhold改回去，这样 w2 就完全正常，最后的几个paycheck会没啥钱，但这部分多的 withhold 也快到第二年能 refund 了，时间成本很低。纯粹为了最后一个月才交税而故意这样搞不建议，每个季度 1040es 还是要付的的
 
-如何改 line 4b，其实可以随手 google 下每年的 tax bracket，例如：  
+如何改 line 4b，其实可以随手 google 下每年的 tax bracket，例如：
 
-**2023 Fed Tax Brackets**  
+**2023 Fed Tax Brackets**
 
-* 24% $95,376 to $182,100  
-* 32% $182,101 to $231,250  
-* 35% $231,251 to $578,125  
+- 24% $95,376 to $182,100
+- 32% $182,101 to $231,250
+- 35% $231,251 to $578,125
 
-**2024 Fed Tax Brackets**  
+**2024 Fed Tax Brackets**
 
-* 24% $100,526 to $191,950  
-* 32% $191,951 to $243,725  
-* 35% $243,726 to $609,350  
-然后就在你在的最上面的那个 bracket 开始做除法，超过了更多的依次向下除。
+- 24% $100,526 to $191,950
+- 32% $191,951 to $243,725
+- 35% $243,726 to $609,350  
+  然后就在你在的最上面的那个 bracket 开始做除法，超过了更多的依次向下除。
 
 update: 一月下半月的工资已经少扣了，改的 line3, work 很丝滑，就是注意别忘了 1040es 每个季度截止时间，以及留个 1/3 保险
 
@@ -43,5 +42,4 @@ update: 一月下半月的工资已经少扣了，改的 line3, work 很丝滑�
 
 ## 参考
 
-1040-ES。1040-ES是预付将来的税款使用的表格。这个可以先多付一部分，再拿回。
-IRS提供了一个察看自己过去的一个日历年度总共付了多少国税的网站：EFTPS.gov (Electronic Federal Tax Payment System)。
+1040-ES。1040-ES是预付将来的税款使用的表格。这个可以先多付一部分，再拿回。IRS提供了一个察看自己过去的一个日历年度总共付了多少国税的网站：EFTPS.gov (Electronic Federal Tax Payment System)。
