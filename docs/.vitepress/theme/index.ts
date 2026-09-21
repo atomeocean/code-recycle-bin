@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme';
 import type { Theme } from 'vitepress';
+import BuyNowButton from '@ao-components/productComponents/BuyNowButton.vue';
 
 /**
  * 自定义主题入口
@@ -16,6 +17,6 @@ import type { Theme } from 'vitepress';
 export default {
   extends: DefaultTheme,
   enhanceApp({ app, router, siteData }) {
-    // 在此注册全局组件或插件
+    app.component('BuyNowButton', BuyNowButton);
   }
 } satisfies Theme;
