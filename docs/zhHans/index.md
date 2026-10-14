@@ -23,6 +23,8 @@ features:
     details: Prettier 统一格式，Husky 提交前自动检查，保持仓库整洁。
 ---
 
-开源旧方案
+## Atomeocean 方案回收站
+
+开源旧方案，代码由Claude等模型协助搬运。
 
 <!--@include: ./contributors.vue-->
