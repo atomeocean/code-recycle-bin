@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 'Atomeocean 开源模板'
+  name: 'Atomeocean 废弃方案'
   text: '快速搭建 VitePress 文档站'
-  tagline: 内置 i18n、路径别名、Prettier、Husky
+  tagline: 模板建站
   actions:
     - theme: brand
       text: Markdown 示例
@@ -22,5 +22,7 @@ features:
   - title: ✨ 规范化
     details: Prettier 统一格式，Husky 提交前自动检查，保持仓库整洁。
 ---
+
+开源旧方案
 
 <!--@include: ./contributors.vue-->
