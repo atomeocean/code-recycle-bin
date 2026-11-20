@@ -31,4 +31,12 @@ Host team-small-server
 - 2026-11-20 排查 admin 前端（`admin.atomeocean.com`）生产故障时发现：两台机器的 22 / 80 端口均不可达，`admin.atomeocean.com` 的 Cloudflare DNS 记录也已被删除（权威 NS 返回 NXDOMAIN）。
 - admin 前端的 GitHub Actions 部署流程是通过 SSH 把 `dist/` 上传到 `ubuntu@<FRONT_END_SERVER_HOST>:/home/ubuntu/admin-vue-folder`，推测部署目标是上面的某台 EC2，但没有核实。
 - 实例的终止时间、终止原因以及 Cloudflare 记录的删除记录都已无从查证。
-- 密钥文件 `team-server-kp.pem` 已在本仓库的 `server/` 目录中归档。
+
+## 密钥
+
+两台机器的 SSH 私钥都已作废，原文件归档在本仓库的 `server/` 目录：
+
+| 别名                | 密钥文件                          |
+| ------------------- | --------------------------------- |
+| `team-server`       | `server/team-server-kp.pem`       |
+| `team-small-server` | `server/team-small-server-kp.pem` |
