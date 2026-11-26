@@ -1,0 +1,8 @@
+{
+  "id": "voyage-payroll-pricing",
+  "name": "付费文章：Voyage Payroll 服务价格说明",
+  "price": 10,
+  "currency": "usd",
+  "description": "Voyage Payroll 的设置费、月费包含的服务、人民币付款与美元工资的关系，全文 PDF 发到下单邮箱",
+  "freeService": false
+}
